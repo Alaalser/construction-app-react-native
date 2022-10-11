@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
   },
   arrow: {
     position: 'absolute',
-    bottom: 35,
+    bottom: 10,
     right: 20,
     backgroundColor: '#2E6A98',
     width: 50,
