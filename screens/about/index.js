@@ -1,5 +1,5 @@
 import { Text, View, Image } from 'react-native';
-import {styles} from './style'
+import { styles } from './style';
 
 const About = () => {
   return (
@@ -27,5 +27,3 @@ const About = () => {
 };
 
 export default About;
-
-

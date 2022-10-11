@@ -1,17 +1,15 @@
 import {
-  StyleSheet,
   Animated,
   View,
   FlatList,
   Pressable,
-  Text,
 } from 'react-native';
 import slides from '../../slides';
 import OnBoardingItem from '../../components/OnBoardingItem';
 import Paginator from '../../components/Paginator';
 import { useRef, useState } from 'react';
 import { AntDesign } from '@expo/vector-icons';
-import {styles} from './style';
+import { styles } from './style';
 
 const OnBoarding = ({ navigation }) => {
   const [end, setEnd] = useState(false);
