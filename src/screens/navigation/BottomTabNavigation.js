@@ -1,11 +1,11 @@
-import About from './screens/about';
-import Contact from './screens/contact';
+import About from '../about';
+import Contact from '../contact';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import ConstructorScreen from './screens/constructorScreen';
+import ConstructorScreen from '../constructorScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 const Tab = createBottomTabNavigator();
 
-export default function Home() {
+export default function BottomTabNavigation() {
   return (
     <Tab.Navigator
       initialRouteName="الرئيسية"

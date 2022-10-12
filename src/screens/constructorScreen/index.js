@@ -1,5 +1,5 @@
 import { View, FlatList, Text, Button, Pressable } from 'react-native';
-import { indexData } from '../../contractorItem';
+import { indexData } from '../../data/contractorItem';
 import Card from '../../components/card';
 import HeaderImage from '../../components/headerImage';
 import { styles } from './style';

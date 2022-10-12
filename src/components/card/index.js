@@ -1,7 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import { Text, Pressable, Image } from 'react-native';
 import { styles } from './style';
-import { indexData } from '../../contractorItem.js';
 
 const Card = ({ children, img,id }) => {
 

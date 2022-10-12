@@ -1,4 +1,5 @@
-import { StyleSheet, View, Animated, useWindowDimensions } from 'react-native';
+import { View, Animated, useWindowDimensions } from 'react-native';
+import { styles } from './style';
 
 const Paginator = ({ data, scrollX }) => {
   const { width } = useWindowDimensions();
@@ -25,19 +26,3 @@ const Paginator = ({ data, scrollX }) => {
 };
 
 export default Paginator;
-
-const styles = StyleSheet.create({
-  dot: {
-    width: 16,
-    height: 16,
-    borderRadius: 8,
-    borderWidth: 1,
-    marginHorizontal: 3,
-  },
-  dot1: {
-    position: 'absolute',
-    bottom: 100,
-    flexDirection: 'row',
-    alignSelf: 'center',
-  },
-});

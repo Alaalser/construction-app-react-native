@@ -1,7 +1,7 @@
 import { Animated, View, FlatList, Pressable } from 'react-native';
-import slides from '../../slides';
-import OnBoardingItem from '../../components/OnBoardingItem';
-import Paginator from '../../components/Paginator';
+import slides from '../../data/slides';
+import OnBoardingItem from '../../components/onBoarding';
+import Paginator from '../../components/paginator';
 import { useRef, useState } from 'react';
 import { AntDesign } from '@expo/vector-icons';
 import { styles } from './style';
